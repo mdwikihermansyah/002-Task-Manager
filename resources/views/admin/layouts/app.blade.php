@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>ETMS- @yield('title')</title>
+    <title>Admin- @yield('title')</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
@@ -71,7 +71,6 @@
                                                 Account</button>
                                             <button type="button" tabindex="0"
                                                 class="dropdown-item">Settings</button>
-                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
                                             <button type="button" tabindex="0" class="dropdown-item">Actions</button>
                                             <div tabindex="-1" class="dropdown-divider"></div>
                                             <button type="button" tabindex="0"
@@ -81,10 +80,10 @@
                                 </div>
                                 <div class="widget-content-left  ml-3 header-user-info">
                                     <div class="widget-heading">
-                                        Alina Mclourd
+                                        admin
                                     </div>
                                     <div class="widget-subheading">
-                                        VP People Manager
+                                        dwiki
                                     </div>
                                 </div>
                                 <div class="widget-content-right header-user-info ml-3">
@@ -136,7 +135,7 @@
                 <div class="scrollbar-sidebar">
                     <div class="app-sidebar__inner">
                         <ul class="vertical-nav-menu">
-                            <li class="app-sidebar__heading">Dashboards</li>
+                            <li class="app-sidebar__heading">Fitur</li>
                             <li>
                                 <a href="{{ route('admin.dashboard') }}" class="mm-active">
                                     <i class="metismenu-icon pe-7s-rocket"></i>
@@ -229,13 +228,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="app-sidebar__heading">Widgets</li>
-                            <li>
-                                <a href="dashboard-boxes.html">
-                                    <i class="metismenu-icon pe-7s-display2"></i>
-                                    Dashboard Boxes
-                                </a>
                             </li>
                         </ul>
                     </div>
